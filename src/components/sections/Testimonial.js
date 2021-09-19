@@ -67,7 +67,7 @@ const Testimonial = ({
                 </div>
                 <div className="testimonial-item-footer text-xs mt-32 mb-0 has-top-divider">
                   <span className="testimonial-item-link">
-                    <a href="https://www.linkedin.com/in/joaoggs/">João Gabriel</a>
+                    <a target="_blank" rel="noreferrer noopener" href="https://www.linkedin.com/in/joaoggs/">João Gabriel</a>
                   </span>
                   <span className="text-color-low"> / </span>
                   <span className="testimonial-item-name text-color-high">Turma 0</span>
@@ -84,7 +84,7 @@ const Testimonial = ({
                 </div>
                 <div className="testimonial-item-footer text-xs mt-32 mb-0 has-top-divider">
                   <span className="testimonial-item-link">
-                    <a href="https://www.linkedin.com/in/diozhn/">Diogo Mendes</a>
+                    <a target="_blank" rel="noreferrer noopener" href="https://www.linkedin.com/in/diozhn/">Diogo Mendes</a>
                   </span>
                   <span className="text-color-low"> / </span>
                   <span className="testimonial-item-name text-color-high">Turma 0</span>
@@ -96,12 +96,12 @@ const Testimonial = ({
               <div className="tiles-item-inner">
                 <div className="testimonial-item-content">
                   <p className="text-sm mb-0">
-                    —
+                    — Eu já tinha feito vários tipos de cursos ou tutoriais focando sempre em entrar no mercado, mas nenhum deles me ajudou de verdade na hora das entrevistas, o que me ajudou tanto a conversar com entrevistadores como ter a expêriencia e suporte para entrar no mercado foi a Techmmunity.
                   </p>
                 </div>
                 <div className="testimonial-item-footer text-xs mt-32 mb-0 has-top-divider">
                   <span className="testimonial-item-link">
-                    <a href="https://www.linkedin.com/in/thiago-moraes-0b71971a9/">Thiago de Souza</a>
+                    <a target="_blank" rel="noreferrer noopener" href="https://www.linkedin.com/in/thiago-moraes-0b71971a9/">Thiago de Souza</a>
                   </span>
                   <span className="text-color-low"> / </span>
                   <span className="testimonial-item-name text-color-high">Turma 0</span>

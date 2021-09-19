@@ -1,8 +1,8 @@
 import React, { useState, useRef, useEffect } from 'react';
 import PropTypes from 'prop-types';
 import classNames from 'classnames';
-import { Link } from 'react-router-dom';
 import Logo from './partials/Logo';
+import { Link } from 'react-router-dom';
 
 const propTypes = {
   navPosition: PropTypes.string,
@@ -117,7 +117,7 @@ const Header = ({
                       className="list-reset header-nav-right"
                     >
                       <li>
-                        <a href="https://headhunting.techmmunity.com.br/candidate-se.html" className="button button-primary button-wide-mobile button-sm" onClick={closeMenu}>Candidate-se</a>
+                        <Link to="/candidate-se" className="button button-primary button-wide-mobile button-sm" onClick={closeMenu}>Candidate-se</Link>
                       </li>
                     </ul>}
                 </div>

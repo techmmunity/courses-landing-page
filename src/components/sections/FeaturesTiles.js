@@ -2,7 +2,6 @@ import React from 'react';
 import classNames from 'classnames';
 import { SectionTilesProps } from '../../utils/SectionProps';
 import SectionHeader from './partials/SectionHeader';
-import Image from '../elements/Image';
 import { IoIosChatbubbles, IoLogoLinkedin }  from 'react-icons/io';
 import { FaBrain, FaServer } from "react-icons/fa"
 import { RiFileChartLine } from "react-icons/ri"
