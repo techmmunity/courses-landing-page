@@ -50,8 +50,8 @@ const FeaturesSplit = ({
   );
 
   const sectionHeader = {
-    title: 'Workflow that just works',
-    paragraph: 'Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum — semper quis lectus nulla at volutpat diam ut venenatis.'
+    title: 'Metodologia que funciona',
+    paragraph: 'Isso não é apenas um curso gravado, mas uma mentoria ao vivo e restrita com pouquíssimos alunos, para que cada um receba atenção especial e tenha o máximo de progresso.'
   };
 
   return (
@@ -67,14 +67,14 @@ const FeaturesSplit = ({
             <div className="split-item">
               <div className="split-item-content center-content-mobile reveal-from-left" data-reveal-container=".split-item">
                 <div className="text-xxs text-color-primary fw-600 tt-u mb-8">
-                  Lightning fast workflow
-                  </div>
+                  voltado ao mercado
+								</div>
                 <h3 className="mt-0 mb-12">
-                  Data-driven insights
-                  </h3>
+                  Problemas reais do dia-a-dia
+								</h3>
                 <p className="m-0">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua — Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                  </p>
+									Aqui os alunos fazem projetos para serem usados no mercado de trabalho, aqui não damos um passo a passo com tudo bonitinho e já resolvido. Nós te ensinamos a pescar, a se virar por você mesmo e resolver os problemas de forma independente.
+								</p>
               </div>
               <div className={
                 classNames(
@@ -93,40 +93,14 @@ const FeaturesSplit = ({
             <div className="split-item">
               <div className="split-item-content center-content-mobile reveal-from-right" data-reveal-container=".split-item">
                 <div className="text-xxs text-color-primary fw-600 tt-u mb-8">
-                  Lightning fast workflow
+                  Ambiente empresarial
                   </div>
                 <h3 className="mt-0 mb-12">
-                  Data-driven insights
-                  </h3>
+                  Simulamos o ambiente de trabalho
+								</h3>
                 <p className="m-0">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua — Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                  </p>
-              </div>
-              <div className={
-                classNames(
-                  'split-item-image center-content-mobile reveal-from-bottom',
-                  imageFill && 'split-item-image-fill'
-                )}
-                data-reveal-container=".split-item">
-                <Image
-                  src={require('./../../assets/images/features-split-image-02.png')}
-                  alt="Features split 02"
-                  width={528}
-                  height={396} />
-              </div>
-            </div>
-
-            <div className="split-item">
-              <div className="split-item-content center-content-mobile reveal-from-left" data-reveal-container=".split-item">
-                <div className="text-xxs text-color-primary fw-600 tt-u mb-8">
-                  Lightning fast workflow
-                  </div>
-                <h3 className="mt-0 mb-12">
-                  Data-driven insights
-                  </h3>
-                <p className="m-0">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua — Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                  </p>
+									Aqui te preparamos para seu dia-a-dia nas empresas, simulando todos os ritos e atividades, para que você possa já começar em seu novo emprego confiante.
+								</p>
               </div>
               <div className={
                 classNames(
@@ -136,6 +110,32 @@ const FeaturesSplit = ({
                 data-reveal-container=".split-item">
                 <Image
                   src={require('./../../assets/images/features-split-image-03.png')}
+                  alt="Features split 03"
+                  width={528}
+                  height={396} />
+              </div>
+            </div>
+
+            <div className="split-item">
+              <div className="split-item-content center-content-mobile reveal-from-left" data-reveal-container=".split-item">
+                <div className="text-xxs text-color-primary fw-600 tt-u mb-8">
+									Praticamente Gratuito
+								</div>
+                <h3 className="mt-0 mb-12">
+									Pague apenas se você conseguir um emprego
+								</h3>
+                <p className="m-0">
+									Caso você não consiga um emprego após finalizar a mentoria, você não paga nem 1 centavo! Para a felicidade de nós todos, isso não aconteceu uma vez sequer até hoje, <b>100% dos nossos alunos foram empregados</b>.
+								</p>
+              </div>
+              <div className={
+                classNames(
+                  'split-item-image center-content-mobile reveal-from-bottom',
+                  imageFill && 'split-item-image-fill'
+                )}
+                data-reveal-container=".split-item">
+                <Image
+                  src={require('./../../assets/images/features-split-image-02.png')}
                   alt="Features split 03"
                   width={528}
                   height={396} />
