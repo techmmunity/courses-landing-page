@@ -22,13 +22,7 @@ const FooterNav = ({
           <Link to="https://wa.me/5511978569934">Contato</Link>
         </li>
         <li>
-          <Link to="#0">Sobre Nós</Link>
-        </li>
-        <li>
           <Link to="#0">FAQ's</Link>
-        </li>
-        <li>
-          <Link to="https://wa.me/5511978569934">Suporte</Link>
         </li>
       </ul>
     </nav>
