@@ -80,7 +80,7 @@ export const Candidatese = () => (
 				<iframe
 					title="Candidate-se"
 					src="https://docs.google.com/forms/d/e/1FAIpQLSdjE3Ypkq74CF1UujIOZQhConrqPzh2XGmktDEZpTyEFrf3wg/viewform?embedded=true"
-					width="640"
+					width="500"
 					height="1800"
 					frameBorder="0"
 					marginHeight={0}
@@ -92,7 +92,7 @@ export const Candidatese = () => (
 		</div>
 
 
-		<SectionHeader data={sectionHeader} className="center-content has-top-divider" />
+		<SectionHeader data={sectionHeader} className="section-inner center-content has-top-divider" />
 
 
 		<div style={{
