@@ -101,7 +101,8 @@ export const Candidatese = () => (
 		}}>
 			<div style={{
 				textAlign: "left",
-				width: "900px"
+				width: "900px",
+				maxWidth: "900px"
 			}}>
 				{socialProofs.map((socialProof) => (
 					<div className="relative bg-white" key={socialProof.nro}>

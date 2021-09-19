@@ -3,7 +3,7 @@ import classNames from 'classnames';
 import { SectionProps } from '../../utils/SectionProps';
 import ButtonGroup from '../elements/ButtonGroup';
 import Button from '../elements/Button';
-import Image from '../elements/Image';
+// import Image from '../elements/Image';
 import Modal from '../elements/Modal';
 
 const propTypes = {
@@ -27,10 +27,10 @@ const Hero = ({
 
   const [videoModalActive, setVideomodalactive] = useState(false);
 
-  const openModal = (e) => {
-    e.preventDefault();
-    setVideomodalactive(true);
-  }
+  // const openModal = (e) => {
+  //   e.preventDefault();
+  //   setVideomodalactive(true);
+  // }
 
   const closeModal = (e) => {
     e.preventDefault();
