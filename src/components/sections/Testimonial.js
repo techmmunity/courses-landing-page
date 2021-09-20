@@ -79,7 +79,7 @@ const Testimonial = ({
               <div className="tiles-item-inner">
                 <div className="testimonial-item-content">
                   <p className="text-sm mb-0">
-                    —
+                    — Quando entrei no ramo de programação, estava perdido, fazia cursos famosos que não me levavam a lugar nenhum, talvez por causa de metodologia, o "na prática" como divulgavam não era tão prático assim. Na tech eu encontrei um ambiente real, com tasks organizadas, mão na massa em projetos muito bons e realmente aprendi muito com isso, desde a parte de estruturação (o que sentia bastante dificuldade), frameworks e como usa-los e até testes! Desenvolvi soft skills que não tinha antes, melhorei minha confiança e com o método de linkedin da tech consegui meu primeiro emprego como júnior numa empresa gigante! Então, super recomendo a mentoria, deu super certo pra mim.
 									</p>
                 </div>
                 <div className="testimonial-item-footer text-xs mt-32 mb-0 has-top-divider">
