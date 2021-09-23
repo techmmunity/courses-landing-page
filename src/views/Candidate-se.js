@@ -15,6 +15,18 @@ const socialProofs = [
     - Ter sangue nos olhos e vontade de ferro pra dar tudo de si`,
   },
   {
+    title: `Quais tecnologias eu vou aprender?`,
+    text: `Git, ESLint, TypeScript, NodeJs, Construção de APIs, React, StyledComponents, TypeORM, e muitas outras tecnologias do universo de JavaScript!`,
+  },
+  {
+    title: `Quando começa?`,
+    text: `Dia 4 de Outubro de 2021.`,
+  },
+  {
+    title: `Tem certificado?`,
+    text: `Sim! O certificado é entregue gratuitamente ao final do curso.`,
+  },
+  {
     title: `Me candidatei, e agora?`,
     text: `Agora sua parte está feita! É só aguardar pelo nosso contato para agendarmos uma entrevista, e caso você seja selecionado, você poderá participar da mentoria.`,
   },
@@ -24,7 +36,7 @@ const socialProofs = [
   },
   {
     title: `Quanto custa?`,
-    text: `Sim, é claro que não é gratuito (bom de mais pra ser de graça, não é mesmo?), MAS FIQUE CALMO! Você só paga depois que conseguir um emprego na área. O valor da mentoria é de 1 salário seu, parcelado em até 6 vezes. Por exemplo, nós conseguimos um emprego para onde seu salário bruto é de R$ 3.500,00 e você decida parcelar em 6 vezes. Você pagaria R$ 583,00 por mês, durante os próximos 6 meses.`,
+    text: `Sim, é claro que não é gratuito (bom de mais pra ser de graça, não é mesmo?), mas fique calmo! Você só paga caso consiga um emprego na área! O valor da mentoria é de 1 salário seu, parcelado em até 6 vezes. Por exemplo, você consegue um emprego onde seu salário bruto é de R$ 3.500,00 e você decide parcelar em 6 vezes. Você pagaria +/- R$ 583,00 por mês, durante os próximos 6 meses.`,
   },
   {
     title: `O que acontece se eu não conseguir um emprego?`,
@@ -32,7 +44,7 @@ const socialProofs = [
   },
   {
     title: `Quais as formas de pagamento aceitas?`,
-    text: `No momento aceitamos apenas Pix.`,
+    text: `No momento aceitamos apenas Pix e Boleto bancário.`,
   },
   {
     title: `Até quando as inscrições ficam abertas?`,
@@ -81,7 +93,7 @@ export const Candidatese = () => (
 					title="Candidate-se"
 					src="https://docs.google.com/forms/d/e/1FAIpQLSdjE3Ypkq74CF1UujIOZQhConrqPzh2XGmktDEZpTyEFrf3wg/viewform?embedded=true"
 					width="500"
-					height="1800"
+					height="1650"
 					frameBorder="0"
 					marginHeight={0}
 					marginWidth={0}
