@@ -48,7 +48,7 @@ const socialProofs = [
   },
   {
     title: `Até quando as inscrições ficam abertas?`,
-    text: `Até dia 24/09/2021, ou até fecharmos a turma de 4 alunos.`,
+    text: `As inscrições são para a Turma 2 da mentoria, que ainda não tem uma data de inicio, mas será algo em torno do final de Dezembro.`,
   },
   // {
   //   title: `Porque o site é tão mal feito?`,
