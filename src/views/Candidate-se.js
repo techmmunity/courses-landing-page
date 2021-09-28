@@ -91,7 +91,7 @@ export const Candidatese = () => (
 			}}>
 				<iframe
 					title="Candidate-se"
-					src="https://docs.google.com/forms/d/e/1FAIpQLSdjE3Ypkq74CF1UujIOZQhConrqPzh2XGmktDEZpTyEFrf3wg/viewform?embedded=true"
+					src="https://docs.google.com/forms/d/e/1FAIpQLSewzJMBHrzG87moFkQIiUe6SGNXFuaeo5nAyF7_Y-VxR-1Wkg/viewform?embedded=true"
 					width="500"
 					height="1650"
 					frameBorder="0"
