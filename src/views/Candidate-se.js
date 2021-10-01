@@ -11,6 +11,7 @@ const socialProofs = [
     title: `O que é necessário para participar da mentoria?`,
     text: `- Conhecimento básico de sintaxe JavaScript (Funções, arrays, strings, numbers)
     - Computador com pelo menos 4GB de ram e um processador quad-core
+    - Uma webcam
     - Conseguir encontrar filmes / livros / jogos piratas no google
     - Ter sangue nos olhos e vontade de ferro pra dar tudo de si`,
   },
@@ -20,7 +21,7 @@ const socialProofs = [
   },
   {
     title: `Quando começa?`,
-    text: `Dia 4 de Outubro de 2021.`,
+    text: `As inscrições são para a Turma 2 da mentoria, que ainda não tem uma data de inicio, mas será algo em torno do inicio de Janeiro.`,
   },
   {
     title: `Tem certificado?`,
