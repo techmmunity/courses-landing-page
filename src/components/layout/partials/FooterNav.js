@@ -19,10 +19,10 @@ const FooterNav = ({
     >
       <ul className="list-reset">
         <li>
-          <Link to="https://wa.me/5511978569934">Contato</Link>
+          <a target="_blank" rel="noreferrer noopener" href="https://wa.me/5511978569934">Contato</a>
         </li>
         <li>
-          <Link to="#0">FAQ's</Link>
+          <Link to="/candidate-se#perguntas-frequentes">FAQ's</Link>
         </li>
       </ul>
     </nav>

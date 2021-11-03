@@ -19,7 +19,7 @@ const FooterSocial = ({
     >
       <ul className="list-reset">
         <li>
-          <a target="_blank" rel="noreferrer noopener" href="https://discord.gg/eDJxCnEHk7">
+          <a target="_blank" rel="noreferrer noopener" href="https://discord.gg/TakYksUzzZ">
 						<Image
 							src={require('./../../../assets/images/discord.svg')}
 							alt="Discord"
@@ -29,12 +29,12 @@ const FooterSocial = ({
           </a>
         </li>
         <li>
-          <a target="_blank" rel="noreferrer noopener" href="https://guilded.gg/techmmunity">
+          <a target="_blank" rel="noreferrer noopener" href="https://www.youtube.com/channel/UCl322bbCTdwW-eOEO4J0Zxw">
 						<Image
-							src={require('./../../../assets/images/guilded.svg')}
-							alt="Guilded"
-							width={20}
-							height={20}
+							src={require('./../../../assets/images/youtube.svg')}
+							alt="Youtube"
+							width={27}
+							height={27}
 						/>
           </a>
         </li>
@@ -45,6 +45,16 @@ const FooterSocial = ({
 							alt="Instagram"
 							width={20}
 							height={20}
+						/>
+          </a>
+        </li>
+        <li>
+          <a target="_blank" rel="noreferrer noopener" href="https://www.linkedin.com/school/techmmunity">
+						<Image
+							src={require('./../../../assets/images/linkedin.svg')}
+							alt="Linkedin"
+							width={23}
+							height={23}
 						/>
           </a>
         </li>

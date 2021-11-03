@@ -12,16 +12,16 @@ const socialProofs = [
     text: `- Conhecimento básico de sintaxe JavaScript (Funções, arrays, strings, numbers)
     - Computador com pelo menos 4GB de ram e um processador quad-core
     - Uma webcam
-    - Conseguir encontrar filmes / livros / jogos piratas no google
+    - Não ter medo de pesquisar por você mesmo
     - Ter sangue nos olhos e vontade de ferro pra dar tudo de si`,
   },
   {
-    title: `Quais tecnologias eu vou aprender?`,
-    text: `Git, ESLint, TypeScript, NodeJs, Construção de APIs, React, StyledComponents, TypeORM, e muitas outras tecnologias do universo de JavaScript!`,
+    title: `O que eu vou aprender?`,
+    text: `Git, ESLint, TypeScript, NodeJs, Construção de APIs, React, StyledComponents, TypeORM, e muitas outras tecnologias do universo de JavaScript!${"\n\n"}Obs: Damos uma boa noção sobre front end, te ensinamos "segredos", manipulação de estados, multiplas paginas, e muitas outras coisas, porém atualmente não ensinamos CSS.`,
   },
   {
     title: `Quando começa?`,
-    text: `As inscrições são para a Turma 2 da mentoria, que ainda não tem uma data de inicio, mas será algo em torno do inicio de Janeiro.`,
+    text: `A Turma 2 de nossa mentoria começará no dia 6 de Dezembro de 2021.`,
   },
   {
     title: `Tem certificado?`,
@@ -33,23 +33,19 @@ const socialProofs = [
   },
   {
     title: `Como funciona a mentoria?`,
-    text: `A mentoria tem a duração de 2 meses, dependendo do progresso da turma, sendo um intensivão de 6 horas por dia, das 9h da manhã até as 16h da tarde, com 1h de pausa para o almoço.`,
+    text: `A mentoria tem a duração de 2 meses, dependendo do progresso da turma, sendo um intensivão de 3 horas por dia, das 9h da manhã até o meio dia, e algumas tarefas para serem feitas para o dia seguinte.`,
   },
   {
     title: `Quanto custa?`,
-    text: `Sim, é claro que não é gratuito (bom de mais pra ser de graça, não é mesmo?), mas fique calmo! Você só paga caso consiga um emprego na área! O valor da mentoria é de 1 salário seu, parcelado em até 6 vezes. Por exemplo, você consegue um emprego onde seu salário bruto é de R$ 3.500,00 e você decide parcelar em 6 vezes. Você pagaria +/- R$ 583,00 por mês, durante os próximos 6 meses.`,
-  },
-  {
-    title: `O que acontece se eu não conseguir um emprego?`,
-    text: `A mentoria sai 100% de graça! Isso mesmo, se você não conseguir um emprego na área, você não paga um centavo!`,
+    text: `Sim, é claro que não é gratuito (bom de mais pra ser de graça, não é mesmo?), mas fique calmo! Você só paga caso consiga um emprego na área! O valor da mentoria é de R$ 3.500, parcelado em até 6 vezes, e você só começa a pagar depois que terminar o curso!`,
   },
   {
     title: `Quais as formas de pagamento aceitas?`,
-    text: `No momento aceitamos apenas Pix e Boleto bancário.`,
+    text: `Aceitamos pix, boleto bancário e cartões de crédito das principais bandeiras.`,
   },
   {
     title: `Até quando as inscrições ficam abertas?`,
-    text: `As inscrições são para a Turma 2 da mentoria, que ainda não tem uma data de inicio, mas será algo em torno do final de Dezembro.`,
+    text: `As inscrições ficam abertas até o dia 26 de Novembro, ou até as vagas serem preenchidas.`,
   },
   // {
   //   title: `Porque o site é tão mal feito?`,
@@ -61,11 +57,13 @@ const socialProofs = [
 }));
 
 export const Candidatese = () => (
+	<>
 	<section
 		className={classNames(
 			'hero section center-content',
 			"illustration-section-01"
 		)}
+		id="candidate-se"
 	>
 		<div className="hero-content">
 			<h1 className="mt-0 mb-16 reveal-from-bottom" data-reveal-delay="200">
@@ -104,6 +102,14 @@ export const Candidatese = () => (
 			</div>
 		</div>
 
+	</section>
+
+	<section
+		className={classNames(
+			'hero section center-content',
+		)}
+		id="perguntas-frequentes"
+	>
 
 		<SectionHeader data={sectionHeader} className="section-inner center-content has-top-divider" />
 
@@ -153,7 +159,7 @@ export const Candidatese = () => (
 								rel="noopener noreferrer"
 								className="text-indigo-600 underline"
 							>
-								no Discord (razal#0894)
+								no Discord (razal#0042)
 							</a>
 							.
 						</p>
@@ -162,4 +168,5 @@ export const Candidatese = () => (
 			</div>
 		</div>
 	</section>
+	</>
 );

@@ -122,10 +122,10 @@ const FeaturesSplit = ({
 									Praticamente Gratuito
 								</div>
                 <h3 className="mt-0 mb-12">
-									Pague apenas se você conseguir um emprego
+									Pague apenas depois de terminar a mentoria
 								</h3>
                 <p className="m-0">
-									Caso você não consiga um emprego após finalizar a mentoria, você não paga nem 1 centavo! Para a felicidade de nós todos, isso não aconteceu uma vez sequer até hoje, <b>100% dos nossos alunos foram empregados</b>.
+									Não se preocupe com dinheiro! Foque apenas nos seus estudos, com a Techmmunity você só paga depois que terminar a mentoria (lembrando que a maioria de nossos alunos já conseguiu um emprego antes mesmo de terminar a mentoria!).
 								</p>
               </div>
               <div className={
