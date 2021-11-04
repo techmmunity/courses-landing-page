@@ -161,10 +161,10 @@ const FeaturesTiles = ({
                 </div>
                 <div className="features-tiles-item-content">
                   <h4 className="mt-0 mb-8">
-                    Soft Skills
+                    Interativo
 									</h4>
                   <p className="m-0 text-sm">
-										Se sinta mais confiante nas entrevistas com nosso o treinamento feito por especialistas.
+										Nada de aulas onde o professor só fala e você fica parado assistindo, com a Techmmunity os alunos compartilham a tela e o professor serve de guia.
 									</p>
                 </div>
               </div>

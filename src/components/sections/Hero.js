@@ -67,16 +67,14 @@ const Hero = ({
               <p className="m-0 mb-32 reveal-from-bottom" data-reveal-delay="400">
 								A melhor mentoria sobre programação voltada ao mercado.
               </p>
-              <div className="reveal-from-bottom" data-reveal-delay="600">
-                <ButtonGroup>
-                  <Button tag="a" color="primary" wideMobile href="/candidate-se">
-										Candidate-se
-									</Button>
-                  <Button tag="a" color="dark" wideMobile href="#direto-ao-ponto">
-                    Saiba mais
-									</Button>
-                </ButtonGroup>
-              </div>
+							<ButtonGroup>
+								<Button tag="a" color="primary" wideMobile href="/candidate-se">
+									Candidate-se
+								</Button>
+								<Button tag="a" color="dark" wideMobile target="_blank" rel="noreferrer noopener" href="https://discord.gg/TakYksUzzZ">
+									Faça parte da comunidade
+								</Button>
+							</ButtonGroup>
             </div>
           </div>
           {/* <div className="hero-figure reveal-from-bottom illustration-element-01" data-reveal-value="20px" data-reveal-delay="800">

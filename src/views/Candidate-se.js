@@ -20,8 +20,12 @@ const socialProofs = [
     text: `Git, ESLint, TypeScript, NodeJs, Construção de APIs, React, StyledComponents, TypeORM, e muitas outras tecnologias do universo de JavaScript!${"\n\n"}Obs: Damos uma boa noção sobre front end, te ensinamos "segredos", manipulação de estados, multiplas paginas, e muitas outras coisas, porém atualmente não ensinamos CSS.`,
   },
   {
+    title: `Como funciona a mentoria?`,
+    text: `A mentoria tem a duração de 2 meses, sendo um intensivão de 3 horas por dia, das 9h da manhã até o meio dia, e algumas tarefas para serem feitas para o dia seguinte.${"\n\n"}Durante as aulas, os alunos se revezam para compartilhar a tela (em cada aula, um aluno diferente compartilha a tela), para que ele seja guiado pelo professor. Todas as aulas ficam gravadas e podem ser reassistidas depois, para caso reste alguma duvida. Caso ainda assim você tenha alguma dúvida, pode usar o discord para fazer perguntas ao professor ou aos outros alunos.`,
+  },
+  {
     title: `Quando começa?`,
-    text: `A Turma 2 de nossa mentoria começará no dia 6 de Dezembro de 2021.`,
+    text: `A turma 2 de nossa mentoria começará no dia 6 de Dezembro de 2021.`,
   },
   {
     title: `Tem certificado?`,
@@ -30,10 +34,6 @@ const socialProofs = [
   {
     title: `Me candidatei, e agora?`,
     text: `Agora sua parte está feita! É só aguardar pelo nosso contato para agendarmos uma entrevista, e caso você seja selecionado, você poderá participar da mentoria.`,
-  },
-  {
-    title: `Como funciona a mentoria?`,
-    text: `A mentoria tem a duração de 2 meses, dependendo do progresso da turma, sendo um intensivão de 3 horas por dia, das 9h da manhã até o meio dia, e algumas tarefas para serem feitas para o dia seguinte.`,
   },
   {
     title: `Quanto custa?`,
@@ -92,7 +92,7 @@ export const Candidatese = () => (
 					title="Candidate-se"
 					src="https://docs.google.com/forms/d/e/1FAIpQLSewzJMBHrzG87moFkQIiUe6SGNXFuaeo5nAyF7_Y-VxR-1Wkg/viewform?embedded=true"
 					width="500"
-					height="1650"
+					height="1700"
 					frameBorder="0"
 					marginHeight={0}
 					marginWidth={0}
