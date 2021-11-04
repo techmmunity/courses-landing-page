@@ -10,7 +10,7 @@ const socialProofs = [
   {
     title: `O que é necessário para participar da mentoria?`,
     text: `- Conhecimento básico de sintaxe JavaScript (Funções, arrays, strings, numbers)
-    - Computador com pelo menos 4GB de ram e um processador quad-core
+    - Computador que rode Chrome + VSCode
     - Uma webcam
     - Não ter medo de pesquisar por você mesmo
     - Ter sangue nos olhos e vontade de ferro pra dar tudo de si`,
@@ -29,7 +29,7 @@ const socialProofs = [
   },
   {
     title: `Tem certificado?`,
-    text: `Sim! O certificado é entregue gratuitamente ao final do curso.`,
+    text: `Sim! O certificado é entregue gratuitamente ao final da mentoria.`,
   },
   {
     title: `Me candidatei, e agora?`,
@@ -37,7 +37,7 @@ const socialProofs = [
   },
   {
     title: `Quanto custa?`,
-    text: `Sim, é claro que não é gratuito (bom de mais pra ser de graça, não é mesmo?), mas fique calmo! Você só paga caso consiga um emprego na área! O valor da mentoria é de R$ 3.500, parcelado em até 6 vezes, e você só começa a pagar depois que terminar o curso!`,
+    text: `Sim, é claro que não é gratuito (bom de mais pra ser de graça, não é mesmo?), mas fique calmo! Você só paga caso consiga um emprego na área! O valor da mentoria é de R$ 3.500, parcelado em até 6 vezes, e você só começa a pagar depois que terminar a mentoria!`,
   },
   {
     title: `Quais as formas de pagamento aceitas?`,
@@ -47,10 +47,6 @@ const socialProofs = [
     title: `Até quando as inscrições ficam abertas?`,
     text: `As inscrições ficam abertas até o dia 26 de Novembro, ou até as vagas serem preenchidas.`,
   },
-  // {
-  //   title: `Porque o site é tão mal feito?`,
-  //   text: `Como essa é nossa primeira turma oficial, nós focamos muito mais em estruturar um conteúdo de qualidade para formar nossos alunos, então acabou não sobrando tempo para fazer um site bonitinho. Sabemos que isso não inspira muita confiança, mas o currículo de nossos professores vale mais do que qualquer site, isso nós garantimos 😉`,
-  // },
 ].map((question, index) => ({
   ...question,
   nro: index + 1,
