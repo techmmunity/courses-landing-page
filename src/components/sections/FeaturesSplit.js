@@ -86,7 +86,9 @@ const FeaturesSplit = ({
                   src={require('./../../assets/images/features-split-image-01.png')}
                   alt="Features split 01"
                   width={528}
-                  height={396} />
+                  height={396}
+									style={{ borderRadius: "5px" }}
+								/>
               </div>
             </div>
 
@@ -112,7 +114,9 @@ const FeaturesSplit = ({
                   src={require('./../../assets/images/features-split-image-03.png')}
                   alt="Features split 03"
                   width={528}
-                  height={396} />
+                  height={396}
+									style={{ borderRadius: "5px" }}
+								/>
               </div>
             </div>
 
@@ -138,7 +142,9 @@ const FeaturesSplit = ({
                   src={require('./../../assets/images/features-split-image-02.png')}
                   alt="Features split 03"
                   width={528}
-                  height={396} />
+                  height={396}
+									style={{ borderRadius: "5px" }}
+								/>
               </div>
             </div>
 

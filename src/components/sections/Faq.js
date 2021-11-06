@@ -6,7 +6,7 @@ const sectionHeader = {
 	title: 'Perguntas frequentes',
 };
 
-const socialProofs = [
+const questions = [
   {
     title: `O que é necessário para participar da mentoria?`,
     text: `- Conhecimento básico de sintaxe JavaScript (Funções, arrays, strings, numbers)
@@ -68,10 +68,11 @@ export const Faq = () => (
 		}}>
 			<div style={{
 				textAlign: "left",
-				width: "900px",
-				maxWidth: "900px"
+				width: "1000px",
+				maxWidth: "1000px",
+				padding: "0 2rem",
 			}}>
-				{socialProofs.map((socialProof) => (
+				{questions.map((socialProof) => (
 					<div className="relative bg-white" key={socialProof.nro}>
 						<div className="pt-10 px-6 md:px-0">
 							<h4 className="text-2xl lg:text-4xl font-bold tracking-tight text-gray-900">
@@ -86,7 +87,7 @@ export const Faq = () => (
 				<div className="relative bg-white">
 					<div className="pt-10 px-6 md:px-0">
 						<h4 className="text-2xl lg:text-4xl font-bold tracking-tight text-gray-900">
-							{`${socialProofs.length + 1}. Tenho mais duvidas, quem pode me ajudar?`}
+							{`${questions.length + 1}. Tenho mais duvidas, quem pode me ajudar?`}
 						</h4>
 						<p className="text-gray-600 text-base">
 							Basta enviar uma mensagem para o Henrique{` `}

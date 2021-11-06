@@ -56,7 +56,7 @@ const CallToAction = ({
 					<div className="container-xs center-content">
 						<ButtonGroup>
 							<Button tag="a" color="primary" wideMobile target="_blank" rel="noreferrer noopener" href="https://discord.gg/TakYksUzzZ">
-								Converse com que fez nossa mentoria
+								Converse com os ex-alunos
 							</Button>
 							<Button tag="a" color="dark" wideMobile href="#candidate-se">
 								Candidate-se
