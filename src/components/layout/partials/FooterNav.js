@@ -1,6 +1,5 @@
 import React from 'react';
 import classNames from 'classnames';
-import { Link } from 'react-router-dom';
 
 const FooterNav = ({
   className,
@@ -22,7 +21,7 @@ const FooterNav = ({
           <a target="_blank" rel="noreferrer noopener" href="https://wa.me/5511978569934">Contato</a>
         </li>
         <li>
-          <Link to="/candidate-se#perguntas-frequentes">FAQ's</Link>
+          <a href="#perguntas-frequentes">FAQ's</a>
         </li>
       </ul>
     </nav>

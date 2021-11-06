@@ -6,8 +6,10 @@ import FeaturesSplit from '../components/sections/FeaturesSplit';
 import Testimonial from '../components/sections/Testimonial';
 import Results from '../components/sections/Results';
 import CallToAction from '../components/sections/CallToAction';
+import {Faq} from '../components/sections/Faq';
+import {CandidateseForm} from '../components/sections/CandidateseForm';
 
-const Home = () => (
+export const Home = () => (
   <>
     <Hero className="illustration-section-01" />
     <FeaturesTiles />
@@ -15,7 +17,7 @@ const Home = () => (
     <Results topDivider />
     <Testimonial topDivider />
     <CallToAction topDivider />
+		<Faq />
+		<CandidateseForm />
   </>
 );
-
-export default Home;

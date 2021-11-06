@@ -26,7 +26,7 @@ const CallToAction = ({
 }) => {
 
   const outerClasses = classNames(
-    'testimonial section',
+    'testimonial section reveal-from-bottom',
     topOuterDivider && 'has-top-divider',
     bottomOuterDivider && 'has-bottom-divider',
     hasBgColor && 'has-bg-color',
@@ -58,7 +58,7 @@ const CallToAction = ({
 							<Button tag="a" color="primary" wideMobile target="_blank" rel="noreferrer noopener" href="https://discord.gg/TakYksUzzZ">
 								Converse com que fez nossa mentoria
 							</Button>
-							<Button tag="a" color="dark" wideMobile href="/candidate-se">
+							<Button tag="a" color="dark" wideMobile href="#candidate-se">
 								Candidate-se
 							</Button>
 						</ButtonGroup>

@@ -88,7 +88,7 @@ const Results = ({
 						<p className="m-0 mb-8">Junte-se as pessoas que mudaram suas vidas conosco</p>
 
 						<div style={{ display: "flex", justifyContent: "center" }}>
-							<Button tag="a" color="primary" wideMobile href="/candidate-se">
+							<Button tag="a" color="primary" wideMobile href="#candidate-se">
 								Candidate-se agora
 							</Button>
 						</div>

@@ -1,6 +1,6 @@
 import React from 'react';
 import classNames from 'classnames';
-import SectionHeader from '../components/sections/partials/SectionHeader';
+import SectionHeader from './partials/SectionHeader';
 
 const sectionHeader = {
 	title: 'Perguntas frequentes',
@@ -52,63 +52,15 @@ const socialProofs = [
   nro: index + 1,
 }));
 
-export const Candidatese = () => (
-	<>
+export const Faq = () => (
 	<section
 		className={classNames(
-			'hero section center-content',
-			"illustration-section-01"
-		)}
-		id="candidate-se"
-	>
-		<div className="hero-content">
-			<h1 className="mt-0 mb-16 reveal-from-bottom" data-reveal-delay="200">
-				Candidate-se a <span className="text-color-primary">Mentoria</span>
-			</h1>
-			<div className="container-xs">
-				<p className="m-0 mb-32 reveal-from-bottom" data-reveal-delay="400">
-					A melhor mentoria sobre programação voltada ao mercado.
-				</p>
-			</div>
-		</div>
-
-
-
-		<div
-			style={{
-				display: `flex`,
-				justifyContent: `center`,
-				marginBottom: "2em"
-			}}
-		>
-			<div style={{
-				backgroundColor: "#fff",
-			}}>
-				<iframe
-					title="Candidate-se"
-					src="https://docs.google.com/forms/d/e/1FAIpQLSewzJMBHrzG87moFkQIiUe6SGNXFuaeo5nAyF7_Y-VxR-1Wkg/viewform?embedded=true"
-					width="500"
-					height="1700"
-					frameBorder="0"
-					marginHeight={0}
-					marginWidth={0}
-				>
-					Carregando…
-				</iframe>
-			</div>
-		</div>
-
-	</section>
-
-	<section
-		className={classNames(
-			'hero section center-content',
+			'hero section center-content reveal-from-bottom',
 		)}
 		id="perguntas-frequentes"
 	>
 
 		<SectionHeader data={sectionHeader} className="section-inner center-content has-top-divider" />
-
 
 		<div style={{
 			display: "flex",
@@ -164,5 +116,4 @@ export const Candidatese = () => (
 			</div>
 		</div>
 	</section>
-	</>
 );

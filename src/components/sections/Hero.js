@@ -68,7 +68,7 @@ const Hero = ({
 								A melhor mentoria sobre programação voltada ao mercado.
               </p>
 							<ButtonGroup>
-								<Button tag="a" color="primary" wideMobile href="/candidate-se">
+								<Button tag="a" color="primary" wideMobile href="#candidate-se">
 									Candidate-se
 								</Button>
 								<Button tag="a" color="dark" wideMobile target="_blank" rel="noreferrer noopener" href="https://discord.gg/TakYksUzzZ">

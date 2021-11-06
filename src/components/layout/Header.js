@@ -2,7 +2,7 @@ import React, { useState, useRef, useEffect } from 'react';
 import PropTypes from 'prop-types';
 import classNames from 'classnames';
 import Logo from './partials/Logo';
-import { Link } from 'react-router-dom';
+import Button from '../elements/Button';
 
 const propTypes = {
   navPosition: PropTypes.string,
@@ -117,7 +117,9 @@ const Header = ({
                       className="list-reset header-nav-right"
                     >
                       <li>
-                        <Link to="/candidate-se" className="button button-primary button-wide-mobile button-sm" onClick={closeMenu}>Candidate-se</Link>
+												<Button tag="a" color="primary" wideMobile href="#candidate-se" onClick={closeMenu}>
+													Candidate-se
+												</Button>
                       </li>
                     </ul>}
                 </div>
