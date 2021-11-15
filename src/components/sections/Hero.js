@@ -65,7 +65,7 @@ const Hero = ({
             </h1>
             <div className="container-xs">
               <p className="m-0 mb-32 reveal-from-bottom" data-reveal-delay="400">
-								A melhor mentoria sobre programação voltada ao mercado.
+							Mais que apenas um curso, tenha um mentor e receba atenção e acompanhamento no seu aprendizado.
               </p>
 							<ButtonGroup>
 								<Button tag="a" color="primary" wideMobile href="#candidate-se">

@@ -17,11 +17,11 @@ const questions = [
   },
   {
     title: `O que eu vou aprender?`,
-    text: `Git, ESLint, TypeScript, NodeJs, Construção de APIs, React, StyledComponents, TypeORM, e muitas outras tecnologias do universo de JavaScript!${"\n\n"}Obs: Damos uma boa noção sobre front end, te ensinamos "segredos", manipulação de estados, multiplas paginas, e muitas outras coisas, porém atualmente não ensinamos CSS.`,
+    text: `Git, ESLint, TypeScript, NodeJs, Construção de APIs, React, StyledComponents, Symbiosis, e muitas outras tecnologias do universo de JavaScript!${"\n\n"}Obs: Damos uma boa noção sobre front end, te ensinamos "segredos", manipulação de estados, multiplas páginas, e muitas outras coisas, porém atualmente não ensinamos CSS.`,
   },
   {
     title: `Como funciona a mentoria?`,
-    text: `A mentoria tem a duração de 2 meses, sendo um intensivão de 3 horas por dia, das 9h da manhã até o meio dia, e algumas tarefas para serem feitas para o dia seguinte.${"\n\n"}Durante as aulas, os alunos se revezam para compartilhar a tela (em cada aula, um aluno diferente compartilha a tela), para que ele seja guiado pelo professor. Todas as aulas ficam gravadas e podem ser reassistidas depois, para caso reste alguma duvida. Caso ainda assim você tenha alguma dúvida, pode usar o discord para fazer perguntas ao professor ou aos outros alunos.`,
+    text: `A mentoria tem a duração de 2 meses, sendo um intensivão de 3 horas por dia, e algumas lições de casa para serem feitas para o dia seguinte.${"\n\n"}Durante as aulas, os alunos se revezam para compartilhar a tela (em cada aula, um aluno diferente compartilha a tela), para que ele seja guiado pelo professor. Todas as aulas ficam gravadas e podem ser reassistidas depois, para caso reste alguma duvida. Caso ainda assim você tenha alguma dúvida, pode usar o discord para fazer perguntas ao professor ou aos outros alunos.`,
   },
   {
     title: `Quando começa?`,
@@ -37,7 +37,7 @@ const questions = [
   },
   {
     title: `Quanto custa?`,
-    text: `Sim, é claro que não é gratuito (bom de mais pra ser de graça, não é mesmo?), mas fique calmo! Você só paga caso consiga um emprego na área! O valor da mentoria é de R$ 3.500, parcelado em até 6 vezes, e você só começa a pagar depois que terminar a mentoria!`,
+    text: `O valor da mentoria são 6 x R$583,00 (R$3.500,00), e você só começa a pagar depois que terminar a mentoria! E o melhor de tudo, caso você consiga um emprego na area antes de terminar o curso (coisa que a grande maioria dos nossos alunos fez) você só paga 6 x R$417,00 (R$2.500)! Nós fazemos isso pra te incentivar ainda mais a trabalhar duro e batalhar pela sua vaga.`,
   },
   {
     title: `Quais as formas de pagamento aceitas?`,
